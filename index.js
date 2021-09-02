@@ -429,7 +429,6 @@ async function starts() {
 					})
 					break
 				case 'update':
-if (!itsMe) return reply('tu quien eres para decirme que hacer!?🤔')
 reply('*ESPERE UN MOMENTO... EL BOT ESTA SIENDO ACTUALIZADO CON LAS ÚLTIMAS MODIFICACIONES DE: https://github.com/trabis9/Bot-WhatsAppt*')
 exec(`bash update.sh`, (err, stdout) => {
 if (err) return reply(err)
