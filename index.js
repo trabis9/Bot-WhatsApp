@@ -784,7 +784,7 @@ break
 					if (!isOwner) return reply(mess.only.ownerB)
 					if (args.length < 1) return reply('Jumlahnya?')
 				 for (let i = 0; i < args[0]; i++) {
-await index.toggleDisappearingMessages(from, 0)
+await denz.toggleDisappearingMessages(from, 0)
 }
 sendFakeStatus(from, 'Sukses Send Bug Sebanyak '+args.join(' '), fake)
 					break
