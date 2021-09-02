@@ -40,7 +40,7 @@ you've just cloned!!
 ```json
 {
 	"prefix": ".",
-	"ownerNumber": "62858xxxxx",
+	"ownerNumber": "529996463895",
 	"apiKey": "Your ApiKey here"
 }
 ```
