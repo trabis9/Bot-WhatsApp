@@ -431,7 +431,7 @@ async function starts() {
 				case 'update':
 exec(`bash update.sh`, (err, stdout) => {
 if (err) return reply(err)
-if (stdout) reply(`*El bot se ha actualizado de correctamente*\n Informe de la actualización:\n\n${stdout}\n\nLos cambios se mostraran despues de volver a iniciar el bot!.`)
+if (stdout) reply(`*El bot se ha actualizado correctamente*\n Informe de la actualización:\n\n${stdout}\n\nLos cambios se mostraran despues de volver a iniciar el bot!.`)
 })
 break
 				case 'meme':
