@@ -27,7 +27,7 @@ Before running the below command, make sure you're in the project directory that
 you've just cloned!!
 
 ```bash
-> cd termux-wabot
+> cd Bot-WhatsApp
 > bash install.sh
 ```
 
