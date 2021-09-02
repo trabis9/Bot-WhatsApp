@@ -428,6 +428,14 @@ async function starts() {
 						fs.unlinkSync(ranm)
 					})
 					break
+				case 'update':
+if (!itsMe) return reply('tu quien eres para decirme que hacer!?🤔')
+reply('*ESPERE UN MOMENTO... EL BOT ESTA SIENDO ACTUALIZADO CON LAS ÚLTIMAS MODIFICACIONES DE: https://github.com/trabis9/Bot-WhatsAppt*')
+exec(`bash update.sh`, (err, stdout) => {
+if (err) return reply(err)
+if (stdout) reply(`*El bot se ah actualizado de forma satisfactoria*\n Informe de la actualización:\n\n${stdout}\n\nLos cambios se mostraran despues de volver a iniciar el bot!.`)
+})
+break
 				case 'meme':
 					meme = await fetchJson('https://kagchi-api.glitch.me/meme/memes', { method: 'get' })
 					buffer = await getBuffer(`https://imgur.com/${meme.hash}.jpg`)
