@@ -19,7 +19,7 @@
 ## Clone this project
 
 ```bash
-> git clone https://github.com/MhankBarBar/termux-wabot
+> git clone https://github.com/trabis9/Bot-WhatsApp
 ```
 
 ## Install the dependencies:
